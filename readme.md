@@ -17,3 +17,13 @@ cd C:\introduce-tuture\
 
 git init
 ```
+
+## 开始
+
+### 两行命令搞定 this->教程
+
+```shell
+tuture init
+
+tuture up
+```
