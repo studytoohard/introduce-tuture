@@ -1,0 +1,33 @@
+name: 使用 tuture 2 行命令生成 这个 教程
+description: tuture | rock and roll
+topics:
+  - tuture
+categories:
+  - tuture
+id: faab0d9659ea1b348cafdc6b99753ccb
+created: '2019-11-11T15:48:56.443Z'
+updated: 2019-11-11T15:51:18.495Z
+steps:
+  - name: 准备好windows下的tuture工具
+    commit: e75c411
+    diff:
+      - file: readme.md
+        display: true
+    explain:
+      post: |-
+        ## 准备
+
+        ### 以 window OS 下为例
+
+        [tuture.exe](https://github.com/tuture-dev/tuture/releases)
+  - name: 进入工程并初始化 git 仓库
+    commit: 7c60d35
+    diff:
+      - file: readme.md
+        display: true
+  - name: 两行命令生成教程
+    commit: e6f14a9
+    diff:
+      - file: .gitignore
+      - file: readme.md
+        display: true
