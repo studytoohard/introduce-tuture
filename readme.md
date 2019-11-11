@@ -4,4 +4,16 @@
 
 ### 以 window OS 下为例
 
-1. [tuture.exe](https://github.com/tuture-dev/tuture/releases)
+[tuture.exe](https://github.com/tuture-dev/tuture/releases)
+
+### 进入工程并初始化 git 仓库
+
+```shell
+cd C:\
+
+mkdir introduce-tuture
+
+cd C:\introduce-tuture\
+
+git init
+```
