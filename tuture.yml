@@ -6,7 +6,7 @@ categories:
   - tuture
 id: faab0d9659ea1b348cafdc6b99753ccb
 created: '2019-11-11T15:48:56.443Z'
-updated: 2019-11-11T15:51:18.495Z
+updated: 2019-11-11T16:10:28.361Z
 steps:
   - name: 准备好windows下的tuture工具
     commit: e75c411
@@ -25,9 +25,54 @@ steps:
     diff:
       - file: readme.md
         display: true
+    explain:
+      post: |-
+        ```shell
+        cd C:\
+        mkdir introduce-tuture
+        cd C:\introduce-tuture\
+        git init
+        ```
   - name: 两行命令生成教程
     commit: e6f14a9
     diff:
       - file: .gitignore
+        display: false
       - file: readme.md
         display: true
+    explain:
+      post: |-
+        ## 开始
+        ### 两行命令搞定 this->教程
+        ```shell
+        tuture init
+        tuture up
+        ```
+  - name: 'OVER, so ____ tell me the word'
+    commit: b7818dc
+    diff:
+      - file: readme.md
+        display: true
+      - file: tuture.yml
+        display: false
+    explain:
+      post: |-
+        ## 结束
+        ### 效果
+        ![](tuture-assets/71416a4d9a3a2d5f76c759844c1d10ae)
+  - name: tuture!
+    commit: c577387
+    diff:
+      - file: readme.md
+        display: true
+        explain:
+          pre: |-
+            ```shell
+            git commit -m "准备好windows下的tuture工具"
+            git commit -m "进入工程并初始化 git 仓库"
+            git commit -m "两行命令生成教程"
+            git commit -m "OVER, so ____ tell me the word"
+            git commit -m "tuture!"
+            ```
+    explain:
+      pre: '## 噢 别忘了这些'
