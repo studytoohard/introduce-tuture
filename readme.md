@@ -23,7 +23,7 @@ git init
 ```
 
 ```shell
-git commit -m "准备好windows下的tuture工具"
+git commit -m "进入工程并初始化 git 仓库"
 ```
 
 ## 开始
@@ -36,8 +36,20 @@ tuture init
 tuture up
 ```
 
+```shell
+git commit -m "两行命令生成教程"
+```
+
 ## 结束
+
+```shell
+git commit -m "OVER, so ____ tell me the world"
+```
 
 ### 效果
 
 ## 噢 别忘了这些
+
+```shell
+git commit -m "tuture!"
+```
