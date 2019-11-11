@@ -6,6 +6,10 @@
 
 [tuture.exe](https://github.com/tuture-dev/tuture/releases)
 
+```shell
+git commit -m "准备好windows下的tuture工具"
+```
+
 ### 进入工程并初始化 git 仓库
 
 ```shell
@@ -16,6 +20,10 @@ mkdir introduce-tuture
 cd C:\introduce-tuture\
 
 git init
+```
+
+```shell
+git commit -m "准备好windows下的tuture工具"
 ```
 
 ## 开始
@@ -31,3 +39,5 @@ tuture up
 ## 结束
 
 ### 效果
+
+## 噢 别忘了这些
